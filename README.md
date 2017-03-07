@@ -35,5 +35,9 @@ Abstract: Infectious diseases are leading cause of mortality and morbidity in al
 ## 4.Using gps and accelerometer data from mobile phone, predict tourist’s behavior (whether tourist will see a particular exhibit or visit a particular shop)
  
 Abstract: Tourism is one of the industry that’s growing really fast. There are many aspects which are important to the industry- managing tourist attractions, improving marketing strategy and providing top-notch services to the tourists. To promote this industry, research scientists are already trying to decipher tourist behaviour. However, prediction of the tourist’s activities is still a problem. Investigating every tourist’s movement is a costly affair. Springer, Vienna, pp. 415–425, 2012, demonstrated the possibility of prediction is only using GPS installed in the tourist’s smartphone [1]. Through GPS, we can easily track the position of the tourist and save it for future references. Further prediction of tourist activities more precisely can be done using accelerometer. Accelerometer records the tourist’s basic movement, like walking or running, or is he chatting or on call. It also records posture of the person, whether he is sleeping or not, and in what position. The result shows that using GPS and accelerometer, it has become easier to predict the tourist behaviour.
+
+References:  
+[1] Junya Kawase, Yohei Kurata and Naoto Yabe ,”Predicting from GPS and Accelerometer Data When and Where Tourists Have Viewed Exhibitions”.
+
  
 Team 11: Snehal Phatangare, Saumya Bhasin, Sayali More, Swapnil Mundhe 
