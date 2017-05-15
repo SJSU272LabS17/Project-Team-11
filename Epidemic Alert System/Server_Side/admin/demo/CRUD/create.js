@@ -12,8 +12,8 @@ const TYPES = [
     'regulator_to_doctor',
     'doctor_to_laboratory',
     'laboratory_to_hospital',
-    'hospital_to_healthdiseaseeDepartment',
-    'healthdiseaseeDepartment_to_researchInstitute'
+    'hospital_to_healthdiseaseDepartment',
+    'healthdiseaseDepartment_to_researchInstitute'
 ];
 
 let diseaseData;
