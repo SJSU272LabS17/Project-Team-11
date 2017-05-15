@@ -1,0 +1,14 @@
+---
+declared-services:
+  car_lease_blockchain:
+    label: ibm-blockchain-5-prod
+    plan: ibm-blockchain-plan-5-prod
+applications:
+- disk_quota: 1024M
+  name: epidemic-alert-system-1
+  command: node app.js
+  path: .
+  instances: 1
+  memory: 512M
+  services:
+    - epidemic_alert_system_blockchain
