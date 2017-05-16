@@ -1,0 +1,162 @@
+#topRw span
+{
+	color:#238db3;
+}
+.rtTxt
+{
+	color:#238db3;
+}
+.brkRw
+{
+    background: linear-gradient(141deg, #b5e850 0%, #409e20 51%, #238db3 75%);
+}
+.txtBx
+{
+	border:2px solid #238db3;
+	color:#238db3;
+}
+.bxHd
+{
+	background-color:#238db3;
+	border:2px solid #238db3;
+}
+.bxMd
+{
+	border:2px solid #238db3;
+}
+.scrlHldr
+{
+	border-left:2px solid #238db3;
+}
+.scrlBr
+{
+	background: linear-gradient(141deg, #b5e850 0%, #409e20 51%, #238db3 75%);
+
+}
+.content
+{
+	color:#238db3;
+}
+.bxBtm
+{
+	border:2px solid #238db3;
+}
+.mnBtn
+{
+	border:2px solid #238db3;
+	color:#238db3;
+}
+.mnBtn:hover
+{
+	background: linear-gradient(141deg, #b5e850 0%, #409e20 51%, #238db3 75%);
+}
+.lnkTxt
+{
+	color:#238db3;
+}
+.bordLR
+{
+	border-left:2px solid #238db3;
+	border-right:2px solid #238db3;
+}
+.bordLRB
+{
+	border-left:2px solid #238db3;
+	border-right:2px solid #238db3;
+	border-bottom:2px solid #238db3;
+}
+.bordTLRB
+{
+	border:2px solid #238db3;
+}
+a:active
+{
+	color:#238db3;
+}
+a:visited
+{
+	color:#238db3;
+}
+a:link
+{
+	color:#238db3;
+}
+a:hover
+{
+	color:#238db3;
+}
+
+#menuBtn
+{
+	border-color: #238db3;
+}
+.menuBar
+{
+	background-color:#238db3;
+}
+.userHdr
+{
+	border-bottom:2px solid #238db3;
+}
+.userHldr:hover
+{
+	background-color:#238db3;
+	color:#FFF;
+}
+.dropDowns
+{
+	border-color:#02144a;
+	color:#02144a;
+}
+
+#chooseConfMd
+{
+	color:#238db3;
+}
+#vhclsTbl
+{
+	color:#238db3;
+}
+#vhclsTbl td
+{
+	border-bottom:2px solid #238db3;
+}
+.vin
+{
+	border-right:2px solid ##238db3;
+}
+.chkBx
+{
+	border:2px solid #238db3;
+}
+.radBtn
+{
+	border:2px solid #238db3;
+}
+#selVhclsTbl
+{
+	color:#238db3;
+}
+#selVhclsTbl td
+{
+	border-bottom:2px solid #238db3;
+}
+
+
+#recsTbl
+{
+	color:#238db3;
+}
+#recsTbl td
+{
+	border-bottom:2px solid #238db3;
+}
+#okTransaction
+{
+	border:2px solid #238db3;
+}
+#okTransaction:hover
+{
+	background-color:#238db3;
+	color:#FFF;
+}

@@ -1,0 +1,64 @@
+function loadRecipients()
+{
+	/*
+	Get all the recipients and their information which is stored on the application server. Recipients are grouped by role and
+	the role of the recipient is hard coded in the recPlural variable on each html page. e.g. recPlural = Dealerships on
+	the manufacturer.html page.
+	Need the recPlural value because there is a separate file for each role on the application server so it is used to know which
+	file to get the information from.
+	*/
+	
+	var newRecPlural = recPlural.replace(" ", "_");
+	console.log("****in loadRecipients newRecPlural ="+newRecPlural);
+	var toRet = [];
+	$.ajax({
+		type: 'GET', 
+		contentType: 'application/json',
+		crossDomain:true,
+		url: '/blockchain/participants/'+newRecPlural.toLowerCase(),
+		success: function(d) {
+			
+			$("#recsTbl").empty();
+			for(var i = 0; i < d.result.length; i++)
+			{
+				var data = d.result[i];
+				$("#recsTbl").append("<tr class='recRw' ><td class='recInfo centAl'>" + data.name + "</td><td class='chkHldr'><span class='chkSpc' ></span><span class='radBtn' ></span><input class='isChk' type='hidden' value='false' /><input class='posArr' type='hidden' value='"+i+"' /></td></tr>");
+			}
+			changeBarSize();
+			toRet = d.result;
+		},
+		error: function(e){
+			console.log(e)
+		},
+		async: false
+	});
+	return toRet;
+}
+
+function getUserMappings(newRecPlural){
+	//alert("****in recipient.js newRecPlural= "+newRecPlural);
+	if(newRecPlural.toLowerCase() == 'regulators'){
+		users=['DVLA'];
+		return users;
+	}
+	if(newRecPlural.toLowerCase() == 'manufacturers'){
+		users=['Batra','Mathew','Carson'];
+		return users;
+	}
+	if(newRecPlural.toLowerCase() == 'dealerships'){
+		users=['Lab1','Lab2','Lab3'];
+		return users;
+	}
+	if(newRecPlural.toLowerCase() == 'lease_companies'){
+		users=['Hospital1','Hospital2','Hospital3'];
+		return users;
+	}
+	if(newRecPlural.toLowerCase() == 'leasees'){
+		users=['HealthCare Department1','HealthCare Department2','HealthCare Department3'];
+		return users;
+	}
+	if(newRecPlural.toLowerCase() == 'scrap_merchants'){
+		users=['Research Institute1','Research Institute2','Research Institute3'];
+		return users;
+	}
+}
