@@ -1,5 +1,5 @@
 
-## 3.Epidemic Alert System
+## Blockchain in Epidemic Alert System
 
 <a href="http://ec2-54-186-169-55.us-west-2.compute.amazonaws.com:8080/index.html"> Project Link</a>
  
